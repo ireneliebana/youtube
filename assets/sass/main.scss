@@ -1,0 +1,21 @@
+@import "lib/vars";
+
+@import "fontface";
+@import "reset";
+
+@import "lib/typo";
+
+@import "partials/header";
+@import "partials/aside";
+@import "partials/main_inicio";
+@import "partials/main_tendencias";
+@import "partials/main_suscripciones";
+@import "partials/layout";
+
+
+
+
+* {
+    // border: 1px solid tomato;  
+}
+

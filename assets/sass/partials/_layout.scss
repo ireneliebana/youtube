@@ -1,0 +1,51 @@
+.no_bullets {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.home {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 240px 1fr;
+    min-height: 100vh ; /*para indicar que como mínimo ocupe toda la pantalla*/
+    
+    &.no_sidebar {
+        grid-template-columns: 70px 1fr;
+        .aside_list_item_label {
+            display: none;
+        }
+        .aside_suscriptors{
+            display: none;
+        }
+    }
+    .header{
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-row-end: 2;
+        grid-column-end: 3;
+    }
+    .aside{
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-row-end: 3;
+        grid-column-end: 2;
+    }
+    .main_inicio {
+        grid-row-start: 2;
+        grid-column-start: 2;
+        grid-row-end: 3;
+        grid-column-end: 3;
+    }
+    .main_tendencias {
+        grid-row-start: 2;
+        grid-column-start: 2;
+        grid-row-end: 3;
+        grid-column-end: 3;
+    }
+    .main_suscripciones {
+        grid-row-start: 2;
+        grid-column-start: 2;
+        grid-row-end: 3;
+        grid-column-end: 3;
+    }
+}

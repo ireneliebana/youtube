@@ -1,0 +1,69 @@
+html,
+body {
+    font-family: "Roboto", "Helvetica", Arial, sans_serif;
+    color: #333;
+    min-height: 100vh;
+
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+//---------------------------//
+
+h1 {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    font-family: "Roboto","Helvetica", Arial, sans_serif;
+    color: $grey_1;
+    margin-bottom: 0;
+}
+h2 {
+    font-size: 1.15rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    font-family: "Roboto","Helvetica", Arial, sans_serif;
+    color: $grey_1;
+    margin-bottom: 0;
+}
+h3 {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    font-weight: 500;
+    font-family: "Roboto","Helvetica", Arial, sans_serif;
+    color: $grey_1;
+    margin-bottom: 0;
+}
+h4 {
+    font-size: 0.87rem;
+    line-height: 1rem;
+    font-weight: 400;
+    font-family: "Roboto","Helvetica", Arial, sans_serif;
+    color: $grey_1;
+    margin-bottom: 0;
+}
+h4.grey {
+    color: $grey_3;
+    line-height: 1.2rem;
+}
+h5 {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    font-weight: 400;
+    font-family: "Roboto","Helvetica", Arial, sans_serif;
+    color: $grey_1;
+    margin-bottom: 0;
+}
+h5.grey {
+    color: $grey_3;
+    line-height: 1.2rem;
+}
+
+a.aside_nav {
+    color: $grey_1;
+    font-size: 0.9rem;
+}
+.material-icons {
+    color: $grey_2;
+    font-size: 1.5rem;
+}

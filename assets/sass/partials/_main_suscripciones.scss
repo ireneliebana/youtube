@@ -1,0 +1,70 @@
+.main_suscripciones{
+    background-color: $grey_7;
+    padding: 0 3rem;
+    .main_suscripciones_section{
+        border-bottom: solid .5px $grey_5;
+        .category{
+            margin-top: 1.5rem;
+            font-weight: 700;
+        }
+        
+        .category_scroll{
+            display: flex;
+            padding: 1.5rem 1rem;
+        
+            .category_item{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width:190px;
+                margin-right: 1.5rem;
+                
+                .category_item_icon{
+                    background-color: $grey_2 ;
+                    width: 6.5rem;
+                    height: 6.5rem;
+                    border-radius: 50%;
+                    img{}
+                }
+                .category_item_label{
+                    margin-top:.25rem;
+                    text-align: center;
+                    h4{
+                        font-weight: 600;
+                        margin-bottom: .2rem;
+                    }
+                    h5.grey{
+                        font-weight: 500;
+                    }
+                }
+                .suscribe{
+                    margin-top: 1rem;
+                    text-transform: uppercase;
+                    background-color: $grey_6;
+                    border:none;
+                    border-radius: 2px;
+                    font-size: 0.83rem;
+                    letter-spacing: 0.03rem;
+                    color:$grey_2;
+                    line-height: 1.5rem ;
+
+
+                }
+                .unsuscribe{
+                    margin-top: 1rem;
+                    text-transform: uppercase;
+                    background-color: $grey_6;
+                    border:none;
+                    border-radius: 2px;
+                    font-size: 0.83rem;
+                    letter-spacing: 0.03rem;
+                    color:$grey_2;
+                    line-height: 1.5rem ;
+                    display:none;
+                    
+                }
+            }
+         
+        }    
+    }
+}
